@@ -26,6 +26,7 @@ public class Main {
 		
 		System.out.println("Il nome esteso del prodotto è: " + p.nomeEsteso());
 		System.out.println("Il codice bonus è: " + p.codiceBonus());
+		s.close();
 	}
 
 }

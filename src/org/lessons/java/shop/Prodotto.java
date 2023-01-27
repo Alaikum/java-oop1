@@ -29,7 +29,7 @@ public class Prodotto {
 	}
 
 	String nomeEsteso() {
-		String nomeEsteso = nome + codice;
+		String nomeEsteso = nome +"-"+ codice;
 		return nomeEsteso;
 	}
 

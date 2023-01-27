@@ -20,9 +20,12 @@ public class Main {
 		iva = s.nextFloat();
 
 		Prodotto p = new Prodotto(nome, descrizione, prezzo, iva);
-		p.prezzoBase();
-		p.prezzoIva();
-		p.nomeEsteso();
+		System.out.printf("Il prezzo base del prodotto è: %.2f € \n", p.prezzoBase());
+		System.out.printf("Il prezzo con l'IVA del %.2f%% è di %.2f € \n",p.iva, p.prezzoIva());
+
+		
+		System.out.println("Il nome esteso del prodotto è: " + p.nomeEsteso());
+		System.out.println("Il codice bonus è: " + p.codiceBonus());
 	}
 
 }
